@@ -4,8 +4,8 @@
   "description": "---",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/pages/index.hbs --no-cache",
-    "build": "parcel build src/pages/index.hbs && node ./server.js"
+    "dev": "parcel src/layouts/index.hbs --no-cache",
+    "build": "parcel build src/layouts/index.hbs && node ./server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/SporYo/middle.messenger.praktikum.yandex#readme",
   "devDependencies": {
     "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "@parcel/transformer-sass": "^2.8.0",
     "parcel": "^2.8.0",
     "sass": "^1.56.1"
   },

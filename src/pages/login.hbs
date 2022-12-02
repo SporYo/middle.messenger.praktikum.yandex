@@ -1,0 +1,25 @@
+{{!< main}}
+
+<div class="login">
+    <form action="" class="login__form">
+        <div class="login__content">
+            {{> title title='Войти'}}
+            {{> input 
+                type='text' 
+                placeholder='Логин'
+                class='login__input'
+            }}
+            {{> input 
+                type='password' 
+                placeholder='Пароль'
+                class='login__input'
+            }}
+            {{> button 
+                text='Создать аккаунт' 
+                class='login__button'
+            }}
+            <a href="#">Нет аккаунта?</a>
+        </div>
+    </form>
+</div>
+
