@@ -4,8 +4,9 @@
   "description": "---",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/layouts/index.hbs --no-cache",
-    "build": "parcel build src/layouts/index.hbs && node ./server.js"
+    "dev": "parcel src/index.hbs --no-cache",
+    "start": "node server.js",
+    "build": "parcel build src/index.hbs && node ./server.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,9 @@
     "parcel": "^2.8.0",
     "sass": "^1.56.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "engine": "14.17.6",
+  "engines": {
+    "node" : ">=12"
+  }
 }
