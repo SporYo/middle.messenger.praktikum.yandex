@@ -1,0 +1,14 @@
+@import 'variables';
+
+.button {
+  width: 80%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  margin-top: 30px;
+  background: $colorBlue;
+  cursor: pointer;
+}

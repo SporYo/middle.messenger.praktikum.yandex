@@ -1,25 +1,25 @@
 {{!< main}}
 
-<div class="login">
-    <form action="" class="login__form">
-        <div class="login__content">
+<section class="authorization">
+    <form action="" class="authorization__form">
+        <div class="authorization__content">
             {{> title title='Войти'}}
             {{> input 
                 type='text' 
                 placeholder='Логин'
-                class='login__input'
+                class='authorization__input input'
             }}
             {{> input 
                 type='password' 
                 placeholder='Пароль'
-                class='login__input'
+                class='authorization__input input'
             }}
             {{> button 
                 text='Авторизоваться' 
-                class='login__button'
+                class='authorization__button button'
             }}
             <a href="#">Нет аккаунта?</a>
         </div>
     </form>
-</div>
+</section>
 

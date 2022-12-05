@@ -5,7 +5,7 @@
 1. Шаблонизатор - Handlebars
 2. Сборщик - Parcel
 
-Ссылка на Netlify -
+Ссылка на Netlify -https://cheerful-otter-b84dfb.netlify.app
 
 ## Установка
 

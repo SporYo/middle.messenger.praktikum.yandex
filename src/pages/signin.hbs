@@ -1,56 +1,56 @@
 {{!< main}}
 
-<div class="signin">
-    <form action="" class="signin__form">
-        <div class="signin__content">
+<section class="authorization">
+    <form action="" class="authorization__form">
+        <div class="authorization__content">
             {{> title title='Регистрация'}}
             {{> input 
                 type='email'
                 name='email'
                 placeholder='Почта'
-                class='signin__input'
+                class='authorization__input input'
             }}
             {{> input 
                 type='text' 
                 name='login'
                 placeholder='Логин'
-                class='signin__input'
+                class='authorization__input input'
             }}
             {{> input 
                 type='text'
                 name='first_name'
                 placeholder='Имя'
-                class='signin__input'
+                class='authorization__input input'
             }}
             {{> input 
                 type='text'
                 name='second_name'
                 placeholder='Фамилия'
-                class='signin__input'
+                class='authorization__input input'
             }}
             {{> input 
                 type='phone'
                 name='phone'
                 placeholder='Телефон'
-                class='signin__input'
+                class='authorization__input input'
             }}
             {{> input 
                 type='password'
                 name='password'
                 placeholder='Пароль'
-                class='signin__input'
+                class='authorization__input input'
             }}
             {{> input 
                 type='password'
                 name='password'
                 placeholder='Пароль (еще раз)'
-                class='signin__input'
+                class='authorization__input input'
             }}
             {{> button 
                 text='Создать аккаунт' 
-                class='signin__button'
+                class='authorization__button button'
             }}
             <a href="#">Войти</a>
         </div>
     </form>
-</div>
+</section>
