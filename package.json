@@ -29,6 +29,6 @@
   "dependencies": {},
   "engine": "14.17.6",
   "engines": {
-    "node" : ">=12"
+    "node": ">=12"
   }
 }
