@@ -4,6 +4,7 @@
 @import 'inputForm';
 @import 'buttonForm';
 @import 'error';
+@import 'profile';
 
 * {
   box-sizing: border-box;
@@ -24,5 +25,4 @@ a {
 .main {
   width: 100%;
   height: 100vh;
-  padding-top: 10%;
 }

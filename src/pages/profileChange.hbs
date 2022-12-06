@@ -62,11 +62,7 @@
                     classInput='profile__input'
                 }}
             </div>
-            <div class="profile__links">
-                {{> link href='profileChange.hbs' text='Изменить данные' class='profile__link'}}
-                {{> link href='profilePassword.hbs' text='Изменить пароль' class='profile__link'}}
-                {{> link href='login.hbs' text='Выйти' class='profile__link profile__link--red'}}
-            </div>
+            {{> button class='profile__button button' text='Сохранить'}}
         </div>
     </div>
 </section>
