@@ -1,0 +1,58 @@
+@import 'variables';
+
+.user {
+    display: flex;
+    padding: 12px;
+    border-top: 1px solid $colorLightGrey;
+    cursor: pointer;
+
+    &__avatar {
+        margin-right: 10px;
+    }
+
+    p {
+        font-size: 12px;
+        line-height: 15px;
+        color: $textColorGrey;
+    }
+
+    &__your-message {
+        font-weight: 700;
+        color: $textColor;
+    }
+
+    &__counter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 20px;
+        height: 20px;
+        background: $colorBlue;
+        border-radius: 50%;
+        font-size: 11px;
+        line-height: 12px;
+        color: #FFFFFF;
+    }
+
+    &__info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__message {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &:hover {
+        background: #f8f8f8;
+    }
+
+}
+
+.active {
+    background: #E4EDFD!important;
+}
