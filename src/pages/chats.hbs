@@ -23,7 +23,11 @@
                     <img src="../assets/img/avatar.svg" alt="Аватар пользователя">
                     <p>Вадим</p>
                 </div>
-                <img src="../assets/img/settings-icon.svg" alt="Меню параметров">
+                <img class="messages__settings" src="../assets/img/settings-icon.svg" alt="Меню параметров">
+                <div class="menu messages__menu">
+                    <p><img src="../assets/img/add-user.svg" alt="Добавить пользователя">Добавить пользователя</p>
+                    <p><img src="../assets/img/remove-user.svg" alt="Удалить пользователя">Удалить пользователя</p>
+                </div>
             </div>
             <div class="chat">
                 <div class="chat__date">
@@ -58,9 +62,14 @@
                 </div>
             </div>
             <div class="send">
-                <img src="../assets/img/send-icon.svg" alt="Отправить файл">
-                <textarea name="send" cols="2" rows="hard" placeholder="Сообщение"></textarea>
+                <img class="send__file" src="../assets/img/send-icon.svg" alt="Отправить файл">
+                <textarea type="message" name="send" cols="2" rows="hard" placeholder="Сообщение"></textarea>
                 <img src="../assets/img/send-arr.svg" alt="Отправить сообщение">
+                <div class="menu send__menu">
+                    <p><img src="../assets/img/foto-file.svg" alt="Добавить пользователя">Фото или Видео</p>
+                    <p><img src="../assets/img/file.svg" alt="Удалить пользователя">Файл</p>
+                    <p><img src="../assets/img/location.svg" alt="Удалить пользователя">Локация</p>
+                </div>
             </div>
         </div>
     </div>
