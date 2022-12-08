@@ -4,7 +4,9 @@
     <div class="chats__content">
         <aside class="users">
             {{> link href='profile.hbs' text='Профиль >'}}
-            {{> input type='search' placeholder='Поиск'}}
+            <form class="chats__form form" action="#">
+                {{> input type='search' placeholder='Поиск'}}
+            </form>
             <div class="users__list">
                 {{> user name='Андрей' time='10.49' message='Изображение' counter='2' ClassUserCounter='user__counter'}}
                 {{> user name='Киноклуб' time='12.00' yourMessage='Вы: ' message='стикер'}}
@@ -63,7 +65,9 @@
             </div>
             <div class="send">
                 <img class="send__file" src="../assets/img/send-icon.svg" alt="Отправить файл">
-                <textarea type="message" name="send" cols="2" rows="hard" placeholder="Сообщение"></textarea>
+                <form action="#" class="send__form form">
+                    <textarea type="send" name="send" cols="2" rows="hard" placeholder="Сообщение"></textarea>
+                </form>
                 <img src="../assets/img/send-arr.svg" alt="Отправить сообщение">
                 <div class="menu send__menu">
                     <p><img src="../assets/img/foto-file.svg" alt="Добавить пользователя">Фото или Видео</p>

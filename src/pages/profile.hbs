@@ -12,7 +12,7 @@
                 <img class="avatar" src="../assets/img/avatar-img.svg" alt="Аватар пользователя">
             </div>
             {{> title title='Иван'}}
-            <div class="profile__inputs">
+            <form action="#" class="profile__inputs">
                 {{> inputProfile 
                     label='Почта' 
                     type='email'
@@ -61,7 +61,7 @@
                     classLable='profile__lable'
                     classInput='profile__input'
                 }}
-            </div>
+            </form>
             <div class="profile__links">
                 {{> link href='profileChange.hbs' text='Изменить данные' class='profile__link'}}
                 {{> link href='profilePassword.hbs' text='Изменить пароль' class='profile__link'}}
