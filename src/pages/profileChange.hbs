@@ -1,0 +1,68 @@
+{{!< main}}
+
+<section class="profile">
+    <div class="profile__content">
+        <div class="profile__button-back">
+            <a href="profile.hbs">
+                <img src="../assets/img/button-back.svg" alt="Вернуться назад">
+            </a>
+        </div>
+        <div class="profile__settings">
+            <div class="profile__avatar">
+                <img src="../assets/img/avatar-img.svg" alt="Аватар пользователя">
+            </div>
+            {{> title title='Иван'}}
+            <form action="#" class="profile__inputs">
+                {{> inputProfile
+                    label='Почта'
+                    type='email'
+                    name='email'
+                    placeholder='pochta@yandex.ru'
+                    classLable='profile__lable'
+                    classInput='profile__input'
+                }}
+                {{> inputProfile
+                    label='Логин'
+                    type='text'
+                    name='login'
+                    placeholder='ivanivanov'
+                    classLable='profile__lable'
+                    classInput='profile__input'
+                }}
+                {{> inputProfile
+                    label='Имя'
+                    type='text'
+                    name='first_name'
+                    placeholder='Иван'
+                    classLable='profile__lable'
+                    classInput='profile__input'
+                }}
+                {{> inputProfile
+                    label='Фамилия'
+                    type='text'
+                    name='second_name'
+                    placeholder='Иванов'
+                    classLable='profile__lable'
+                    classInput='profile__input'
+                }}
+                {{> inputProfile
+                    label='Имя в чате'
+                    type='text'
+                    name='display_name'
+                    placeholder='Иван'
+                    classLable='profile__lable'
+                    classInput='profile__input'
+                }}
+                {{> inputProfile
+                    label='Телефон'
+                    type='tel'
+                    name='phone'
+                    placeholder='+7 (909) 967 30 30'
+                    classLable='profile__lable'
+                    classInput='profile__input'
+                }}
+                {{> button class='profile__button button' text='Сохранить'}}
+            </form>
+        </div>
+    </div>
+</section>

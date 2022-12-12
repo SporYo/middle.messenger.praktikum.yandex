@@ -1,0 +1,10 @@
+@import 'variables';
+
+.input {
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    border-bottom: 1px solid $colorBlue;
+}
